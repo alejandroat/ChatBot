@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Compilación
+dist/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/postgres/data/
+
+# Prisma
+backend/prisma/dev.db
+
+# Archivos temporales
+*.tmp
+*.swp
